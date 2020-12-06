@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
     <form method="POST">
-    <label for="ismale">Male? (True/False):</label><br>
-    <input type="text" id="ismale" name="ismale"><br><br>
+    <label for="ismale">Is the baby Male?:</label><br>
+    <select name="ismale" id="ismale">
+    <option value="true">Yes</option>
+    <option value="false">No</option>
+    </select><br><br>
     <label for="gestation_weeks">Gestation Weeks:</label><br>
     <input type="text" id="gestation_weeks" name="gestation_weeks"><br><br>
     <label for="mother_age">Mother's Age:</label><br>
     <input type="text" id="mother_age" name="mother_age"><br><br>
-    <label for="mother_race">Mother's Race<br>
-        1 - White <br>
-        2 - Black <br>
-        3 - American Indian <br>
-        4 - Chinese <br>
-        5 - Japanese <br>
-        6 - Hawaiian <br>
-        7 - Filipino <br>
-        9 - Unknown/Other <br>
-        18 - Asian Indian <br>
-        28 - Korean <br>
-        39 - Samoan <br>
-        48 - Vietnamese:</label><br>
-    <input type="text" id="mother_race" name="mother_race"><br><br>
+    <label for="mother_race">Mother's Race:</label><br>
+    <select name="mother_race" id="mother_race">
+    <option value=1>White</option>
+    <option value=2>Black</option>
+    <option value=3>American Indian</option>
+    <option value=4>Chinese</option>
+    <option value=5>Japanese</option>
+    <option value=6>Hawaiian</option>
+    <option value=7>Filipino</option>
+    <option value=9>Unknown/Other</option>
+    <option value=18>Asian Indian</option>
+    <option value=28>Korean</option>
+    <option value=39>Samoan</option>
+    <option value=48>Vietnamese</option>
+    </select><br><br>
     <input type="submit" value="Submit">
 </form>
