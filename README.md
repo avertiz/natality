@@ -1,3 +1,4 @@
+![Python application test with Github Actions](https://github.com/avertiz/natality/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg?branch=main)
 # Natality
 This is a repository that holds all code necessary to deploy a model that predicts a child's birth weight when born. Google Cloud Platform is needed for the machine learning portion. Google BigQuery has this dataset available for free, but it can also be found elsewhere on th internet. 
 
